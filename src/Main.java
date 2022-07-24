@@ -1,6 +1,9 @@
 import beepers.Beeper;
 import beepers.Horn;
 import beepers.MagicSound;
+import cars.Car;
+import cars.Lambo;
+import cars.Priora;
 import engines.Engine;
 import engines.EngineV12;
 import engines.EngineV6;
@@ -20,11 +23,6 @@ public class Main {
 
         Priora priora = new Priora(magicSound, engineV6);
 
-//        System.out.println(lambo.beeper.makeSound());
-//        System.out.println(lambo.engine.getSpeed());
-//
-//        System.out.println(priora.beeper.makeSound());
-//        System.out.println(priora.engine.getSpeed());
 
         ArrayList<Car> transporter = new ArrayList<>();
         transporter.add(lambo);

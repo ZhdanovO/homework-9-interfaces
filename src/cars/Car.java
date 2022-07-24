@@ -1,10 +1,12 @@
+package cars;
+
 import beepers.Beeper;
 import engines.Engine;
 
 public abstract class Car {
 
-    Beeper beeper;
-    Engine engine;
+    public Beeper beeper;
+    public Engine engine;
 
     public Car(Beeper beeper, Engine engine) {
         this.beeper = beeper;
