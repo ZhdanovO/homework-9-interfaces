@@ -59,6 +59,7 @@ public class Main {
             System.out.println(car.beeper.makeSound());
             System.out.println(car.engine.getSpeed());
             System.out.println(car.cabinSize.getCapasity());
+            System.out.println(car.gearBox.getGearsCount());
         });
     }
 }
